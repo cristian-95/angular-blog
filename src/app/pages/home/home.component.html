@@ -4,12 +4,30 @@
 <app-title></app-title>
 <div class="articles-container">
   <div class="featured-article">
-    <app-cover-card></app-cover-card>
+    <app-cover-card
+      [imgUrl]="'https://www.polifitema.com.br/wp-content/uploads/2017/02/guindaste-na-elevacao-e-movimentacao-de-carga.jpg'"
+      title="Top 10 Guindastes com melhor custo beneficio."
+      description="Nesta lista reunimos os guindastes com melhor relação custo/beneficio. O número 7 irá te surpreender..."
+  >
+  </app-cover-card>
   </div>
   <div class="recent-articles">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
+    <app-card
+      [img]="'https://hypescience.com/wp-content/uploads/2009/11/guindaste-corta-casa-ao-meio-5.jpg'"
+      [title]="'Excesso de confiança vs segurança no trabalho.'"
+    >
+  </app-card>
+
+    <app-card
+      [img]="'https://www.grupowrlocacoes.com.br/wp-content/uploads/2020/07/capa-tipos-de-guindastes-1024x640.jpg'"
+      [title]="'O papel crucial dos guindastes na história das construções.'"
+    >
+    </app-card>
+
+    <app-card
+      [img]="'https://realguindastes.com/wp-content/uploads/2021/06/imagem-destacada-guindaste.png'"
+      [title]="'REVIEW: Guindaste ATF 400G-6 mostrou a que veio.'"
+    >
+    </app-card>
   </div>
 </div>
-

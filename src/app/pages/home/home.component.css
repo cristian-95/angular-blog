@@ -7,3 +7,7 @@ header{
   display: flex;
   justify-content: center;
 }
+
+.recent-articles{
+  margin-left: 25px;
+}
