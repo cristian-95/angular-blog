@@ -1,0 +1,27 @@
+.card-container{
+  width: 600px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pic > img {
+  width: 200px;
+  min-width: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+}
+
+.separator-container > hr{
+  color: gray;
+  margin: 5px;
+}

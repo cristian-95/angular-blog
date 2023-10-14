@@ -1,0 +1,30 @@
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-title > h1 {
+  margin: 10px 20px;
+  color: gold;
+  font-weight: bolder;
+}
+
+.menu-title > h1:hover{
+  color: white;
+}
+
+.contact-container{
+  align-self: center;
+
+}
+
+
+.contact-container > ul{
+  display: flex;
+  justify-content: center;
+}
+.contact-container > ul > li {
+  margin-right: 20px;
+  list-style: none;
+  font-style: italic;
+}
