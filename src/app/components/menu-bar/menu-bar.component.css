@@ -3,13 +3,13 @@
   justify-content: space-between;
 }
 
-.menu-title > h1 {
+.menu-title > h1 > a {
   margin: 10px 20px;
   color: gold;
   font-weight: bolder;
 }
 
-.menu-title > h1:hover{
+.menu-title > h1 > a:hover{
   color: white;
 }
 

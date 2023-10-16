@@ -1,13 +1,21 @@
-.title-container > h1{
+.title > h1{
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 8vh;
   display: flex;
   justify-content: center;
+  text-align: center;
+  opacity: 0.85;
 }
 
 .title-container > hr{
   margin-top: 20px;
   margin-bottom: 5px;
   color: gray;
+}
+
+
+.title {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/006/138/991/original/a-grungy-and-worn-hazard-stripes-texture-warning-striped-rectangular-background-yellow-and-black-stripes-on-the-diagonal-a-warning-to-be-careful-free-vector.jpg');
+
 }
